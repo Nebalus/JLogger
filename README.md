@@ -36,9 +36,9 @@ Add the GitHub Package Registry to your `pom.xml`:
 
 <dependencies>
     <dependency>
-        <groupId>dev.nebalus.library.jlogger</groupId>
+        <groupId>dev.nebalus.library</groupId>
         <artifactId>jlogger</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.0-SNAPSHOT</version>
     </dependency>
 </dependencies>
 ```

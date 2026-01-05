@@ -2,11 +2,8 @@ name: Build and Deploy to GitHub Packages
 
 on:
   push:
-    branches:
-      - main
-      - master
-  release:
-    types: [created]
+    tags:
+      - 'v*'
 
 jobs:
   build:
