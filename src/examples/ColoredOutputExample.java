@@ -51,9 +51,13 @@ public class ColoredOutputExample {
 
         colorFormatter.setColorScheme(new TrafficLightColorScheme());
 
-        logger.error("ERROR: Red");
+        logger.emergency("EMERGENCY: Blinking Red");
+        logger.alert("ALERT: Bright Red");
+        logger.fatal("FATAL: Bright Red");
+        logger.error("ERROR: Yellow");
         logger.warning("WARNING: Yellow");
         logger.info("INFO: Green");
+        logger.log("DEFAULT: No special coloring");
         logger.debug("DEBUG: Gray");
 
         logger.close();
