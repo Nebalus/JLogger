@@ -69,7 +69,7 @@ public class JsonLoggingExample {
         }
 
         // Different log levels
-        logger.warning("High memory usage detected: 85%");
+        logger.warning("High memory usage detected: 85%%");
         logger.debug("Cache size: 1024 entries");
 
         logger.close();

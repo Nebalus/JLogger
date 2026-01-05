@@ -262,8 +262,17 @@ See the [`src/examples/`](src/examples/) directory for runnable demonstrations:
 Run an example:
 
 ```bash
-mvn compile
-java -cp target/classes src.examples.BasicLoggingExample
+# Basic Logging Example
+mvn exec:java -Dexec.mainClass="src.examples.BasicLoggingExample"
+
+# Colored Output Example
+mvn exec:java -Dexec.mainClass="src.examples.ColoredOutputExample"
+
+# File Logging Example
+mvn exec:java -Dexec.mainClass="src.examples.FileLoggingExample"
+
+# JSON Logging Example
+mvn exec:java -Dexec.mainClass="src.examples.JsonLoggingExample"
 ```
 
 ## 🔧 Building

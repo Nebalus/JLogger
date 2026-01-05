@@ -51,7 +51,7 @@ public class FileLoggingExample {
 
         // These will only appear in the file (below INFO threshold for console)
         logger.debug("Query executed in 15ms");
-        logger.debug("Cache hit ratio: 78%");
+        logger.debug("Cache hit ratio: 78%%");
 
         // Log with class context
         logger.info(FileLoggingExample.class, "Application started");
