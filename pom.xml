@@ -13,7 +13,7 @@
 
     <!-- More Project Information -->
     <name>JLogger</name>
-    <description>A Java logging library</description>
+    <description>A lightweight, flexible Java logging library with ANSI color support, multiple output handlers, and customizable formatters</description>
 
     <licenses>
         <license>
