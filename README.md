@@ -2,6 +2,8 @@
 
 A lightweight, flexible Java logging library with ANSI color support, multiple output handlers, and customizable formatters.
 
+![JLogger Presentation](docs/presentation.gif)
+
 ## ✨ Features
 
 - **8 Log Levels** — EMERGENCY, ALERT, FATAL, ERROR, WARNING, INFO, DEFAULT, DEBUG
