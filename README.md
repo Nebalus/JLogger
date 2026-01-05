@@ -1,1 +1,1 @@
-# WebEmailWorker
+# JLogger
