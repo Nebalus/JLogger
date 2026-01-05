@@ -16,6 +16,11 @@ import dev.nebalus.library.jlogger.formatter.colorscheme.TrafficLightColorScheme
  */
 public class ColoredOutputExample {
 
+    /**
+     * Runs the colored output example demonstrating different color schemes.
+     * 
+     * @param args command line arguments (not used)
+     */
     public static void main(String[] args) {
         // Create logger
         Logger logger = new Logger("ColorDemo");

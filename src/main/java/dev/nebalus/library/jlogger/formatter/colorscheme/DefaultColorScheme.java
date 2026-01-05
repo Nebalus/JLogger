@@ -3,8 +3,25 @@ package dev.nebalus.library.jlogger.formatter.colorscheme;
 import dev.nebalus.library.jlogger.LogLevel;
 import dev.nebalus.library.jlogger.ansi.AnsiFormatingCode;
 
+/**
+ * Default color scheme with distinct colors and styles for each log level.
+ * Uses a variety of colors and formatting styles (blinking, bold, italic)
+ * to clearly differentiate between severity levels.
+ */
 public class DefaultColorScheme extends ColorScheme {
 
+	/**
+	 * Creates a new DefaultColorScheme with predefined color mappings.
+	 * <ul>
+	 * <li>EMERGENCY: Blinking bright yellow on red background</li>
+	 * <li>ALERT: Bright yellow on bright red background</li>
+	 * <li>FATAL: Bright white on bright red background</li>
+	 * <li>ERROR: Bright red</li>
+	 * <li>WARNING: Yellow</li>
+	 * <li>INFO: Bright blue</li>
+	 * <li>DEBUG: Italic gray</li>
+	 * </ul>
+	 */
 	public DefaultColorScheme() {
 		super();
 		registerScheme(LogLevel.EMERGENCY, AnsiFormatingCode.STYLE_SLOW_BLINK, AnsiFormatingCode.STYLE_INTENSITY_BRIGHT,

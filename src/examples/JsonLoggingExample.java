@@ -15,6 +15,11 @@ import dev.nebalus.library.jlogger.processor.LogProcessorInterface;
  */
 public class JsonLoggingExample {
 
+    /**
+     * Runs the JSON logging example with custom processors.
+     * 
+     * @param args command line arguments (not used)
+     */
     public static void main(String[] args) {
         // Create logger
         Logger logger = new Logger("JsonDemo");

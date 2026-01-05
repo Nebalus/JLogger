@@ -12,6 +12,11 @@ import dev.nebalus.library.jlogger.formatter.LineFormatter;
  */
 public class BasicLoggingExample {
 
+    /**
+     * Runs the basic logging example demonstrating all log levels.
+     * 
+     * @param args command line arguments (not used)
+     */
     public static void main(String[] args) {
         // Create a logger with a channel name
         Logger logger = new Logger("MyApp");

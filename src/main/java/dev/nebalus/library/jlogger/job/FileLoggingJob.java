@@ -1,15 +1,20 @@
-
 package dev.nebalus.library.jlogger.job;
 
-public class FileLoggingJob implements Runnable
-{
+/**
+ * A runnable job for file-based logging operations.
+ * This class is a placeholder for future asynchronous file logging
+ * implementation.
+ */
+public class FileLoggingJob implements Runnable {
 
+	/**
+	 * Executes the file logging job.
+	 * Currently not implemented.
+	 */
 	@Override
-	public void run()
-	{
-
+	public void run() {
+		// Placeholder for future implementation
 	}
-
 }
 /*
  * implements Runnable {

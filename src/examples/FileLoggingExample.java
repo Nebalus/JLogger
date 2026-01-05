@@ -17,6 +17,11 @@ import dev.nebalus.library.jlogger.formatter.colorscheme.DefaultColorScheme;
  */
 public class FileLoggingExample {
 
+    /**
+     * Runs the file logging example demonstrating multiple handlers.
+     * 
+     * @param args command line arguments (not used)
+     */
     public static void main(String[] args) {
         // Create logger
         Logger logger = new Logger("FileDemo");
